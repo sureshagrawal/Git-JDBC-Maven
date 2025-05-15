@@ -18,7 +18,7 @@ public class App
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("select * from celebrity");
             while(rs.next()){
-                out.println(rs.getString(2));
+                out.println(rs.getString(3));
 
             }
 
